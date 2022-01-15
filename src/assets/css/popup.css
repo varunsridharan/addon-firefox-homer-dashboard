@@ -1,0 +1,16 @@
+html, head, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+div.spaceWrap {
+	padding: 0;
+	overflow: hidden;
+}
+
+.viewPort {
+	-webkit-transform-origin: 0 0;
+	border: none;
+}

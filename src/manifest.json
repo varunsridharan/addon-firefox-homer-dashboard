@@ -1,0 +1,40 @@
+{
+  "author"                    : "Varun Sridharan",
+  "developer"                 : {
+	"name" : "Varun Sridharan",
+	"url"  : "https://github/varunsridharan"
+  },
+  "homepage_url"     : "https://github.com/varunsridharan/addon-firefox-homer-dashboard",
+  "name"                      : "Homer Dashboard",
+  "version"                   : "1.0.0",
+  "description"               : "Simple & Quick Access Addon For Homer Dashboard ",
+  "manifest_version"          : 2,
+  "icons"                     : {
+	"16"  : "assets/images/logo.png",
+	"32"  : "assets/images/logo.png",
+	"48"  : "assets/images/logo.png",
+	"128" : "assets/images/logo.png"
+  },
+  "browser_action"            : {
+	"default_popup" : "popup.html",
+	"browser_style" : false
+  },
+  "permissions"               : [
+	"storage"
+  ],
+  "options_ui"                : {
+	"page"          : "options.html",
+	"browser_style" : false
+  },
+  "optional_permissions"      : [
+	"<all_urls>",
+	"webRequest",
+	"webRequestBlocking"
+  ],
+  "browser_specific_settings" : {
+	"gecko" : {
+	  "id"                 : "addon@example.com",
+	  "strict_min_version" : "42.0"
+	}
+  }
+}
