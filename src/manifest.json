@@ -27,7 +27,6 @@
 	"browser_style" : false
   },
   "optional_permissions"      : [
-	"<all_urls>",
 	"webRequest",
 	"webRequestBlocking"
   ],
