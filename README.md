@@ -31,7 +31,7 @@ If you would like to help, please take a look at the list of [issues](https://gi
 
 
 ## 📜  License & Conduct
-- [****]() © [Varun Sridharan](website)
+- [**GNU General Public License v3.0**](https://github.com/varunsridharan/addon-firefox-homer-dashboard/blob/main/LICENSE) © [Varun Sridharan](website)
 - [Code of Conduct](https://github.com/varunsridharan/.github/blob/main/CODE_OF_CONDUCT.md)
 
 
